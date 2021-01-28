@@ -42,6 +42,8 @@
     font-size: 35px;
     padding: 3px;
     color: white;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 
@@ -67,4 +69,12 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+}
+
+footer {
+    background-color: #F8DDA4;
+    padding: 60px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
 }
