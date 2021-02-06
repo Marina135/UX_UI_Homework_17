@@ -128,7 +128,7 @@ footer {
 .row2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .gallery img {
@@ -149,34 +149,35 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .row5 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .row6 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .row7 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .row8 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .banner {
@@ -218,6 +219,7 @@ footer {
     top: 0;
     display: flex;
     align-items: center;
+    object-fit: cover;
 }
   
 .loading {
@@ -236,4 +238,8 @@ footer {
     100% {
       transform: rotate(720deg);
     }
+}
+
+.overlayimg {
+    
 }
